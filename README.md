@@ -1,0 +1,1 @@
+Tribute page project as part of the Free Code Camp responsive web design projects. To open, simply open index.html file in browser.

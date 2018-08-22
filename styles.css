@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: gray;
+  color: #e1e3e8;
+  margin: 0;
+}
+
+#title {
+  position: absolute;
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  right: 20px;
+  bottom: 45px;
+  font-size: 60px;
+  font-weight: normal;
+  color: rgba(225, 227, 232, 0.9);
+}
+
+#img-div {
+  position: relative;
+}
+
+#image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+#tribute-info {
+  padding: 25px 15% 3% 15%;
+}
+
+#intro-paragraph {
+  font-size: 28px;
+  padding-bottom: 40px;
+}
+
+ul{
+  padding-top: 25px;
+}
+
+li {
+  padding-top: 20px;
+  font-size: 23px;
+}
+
+.link {
+  padding-top: 50px;
+  text-align: center;
+}
+
+hr {
+  border: 0;
+  height: 1.5px;
+  background-image: linear-gradient(to right, rgba(225, 227, 232, 0), rgba(225, 227, 232, 0.75), rgba(225, 227, 232, 0));
+}
+
+#img-caption {
+  text-align: center;
+  letter-spacing: .5px;
+  font-size: 14px;
+}
+
+div div {
+  background-image: url("/Users/ramoncardenas/Downloads/connectwork/connectwork.png");
+}
+
+@media screen and (max-width: 800px){
+  #title {
+    font-size: 25px;
+  }
+}
